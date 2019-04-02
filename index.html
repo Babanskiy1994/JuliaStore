@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/jquery.bxslider.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
 	<!-- Шрифты -->
@@ -37,17 +37,6 @@
 							<a href="#"><img src="img/Viber.png" class="social_button" alt="Viber"></a>
 							<a href="#"><img src="img/Whatsapp.png" class="social_button" alt="Whatsapp"></a>
 					</div>
-				</div>
-			</div>
-			<div class="row"> <!-- Нижняя строка меню -->
-				<div class="col-md-12">
-					<nav class="navbar">
-	   						<a class="nav-item nav-link active" href="#">Галерея<span class="sr-only">(current)</span></a>
-	   						<a class="nav-item nav-link" href="#">Стоимость</a>
-	   						<a class="nav-item nav-link" href="#">Доставка</a>
-	    					<a class="nav-item nav-link" href="#">Отзывы</a>
-	    					<a class="nav-item nav-link" href="#">Контакты</a>
-					</nav>
 				</div>
 			</div>
 		</div>
@@ -82,7 +71,7 @@
 		</div>
 	</section>
 
-	<section id="about"> <!-- "О нас" -->
+	<section id="about" class="wow fadeIn" data-wow-delay="0.3s"> <!-- "О нас" -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
@@ -117,7 +106,7 @@
 		</div>
 	</section>
 
-	<section id="gallery"> <!-- "Галерея" -->
+	<section id="gallery" class="wow fadeIn" data-wow-delay="0.3s"> <!-- "Галерея" -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -140,7 +129,7 @@
 		</div>
 	</section>
 
-	<section id="price"> <!-- Стоимость -->
+	<section id="price" class="wow fadeIn" data-wow-delay="0.3s"> <!-- Стоимость -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-1">
@@ -167,7 +156,7 @@
 		</div>
 	</section>
 
-	<section id=reviews>
+	<section id=reviews class="wow fadeIn" data-wow-delay="0.3s">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -175,15 +164,15 @@
 						<ul class="bxslider text-center">
 							<li><img src="img/ava1.jpg">
 								<h4>Алексей</h4>
-								<p>Отличные чехлы! Заказал два чехла со своим эскизом для себя и для девушки, оба остались более чем довольны. Особо порадовало качество. Рекомендую заказывать здесь! :)</p>
+								<p>Отличные чехлы! Заказал два чехла со своим эскизом для себя и для жены, оба остались более чем довольны. Особо порадовало качество. Рекомендую заказывать здесь!</p>
 							</li>
-							<li><img src="img/ava1.jpg">
-								<h4>Алексей</h4>
-								<p>Отличные чехлы! Заказал два чехла со своим эскизом для себя и для девушки, оба остались более чем довольны. Особо порадовало качество. Рекомендую заказывать здесь! :)</p>
+							<li><img src="img/ava2.jpg">
+								<h4>Эвелина</h4>
+								<p>Замечательный чехол! Качество рисунка на высоте, берите не пожаеете :)</p>
 							</li>
-							<li><img src="img/ava1.jpg">
-								<h4>Алексей</h4>
-								<p>Отличные чехлы! Заказал два чехла со своим эскизом для себя и для девушки, оба остались более чем довольны. Особо порадовало качество. Рекомендую заказывать здесь! :)</p>
+							<li><img src="img/ava3.jpg">
+								<h4>Тёма</h4>
+								<p>Шикардос, то, что надо. Крепкий, приятный к руке чехол. Из рук не выскальзывает, в карман залазит легко и непринужденно.</p>
 							</li>
 						</ul>
 					</div>
@@ -195,9 +184,11 @@
 
 	<!-- Скрипты -->
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<script defer src="js/bootstrap.min.js"></script>
-	<script defer src="js/jquery.bxslider.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>
